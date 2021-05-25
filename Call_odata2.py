@@ -38,7 +38,7 @@ def main(argv):
         print('Opción necesarias[S/H/B]')   
         
     if url != "":
-        r = requests.get( url , auth=('S0020939499', 'faltamiTRAXION2019'))
+        r = requests.get( url , auth=('', ''))
         #r = requests.get( url )
         print( r.status_code )
         #print( r.headers['content-type'] )
